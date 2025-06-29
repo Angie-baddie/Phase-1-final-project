@@ -1,12 +1,12 @@
 # Phase 1 Final Project: Aviation Accidents Analysis
 
 ## Overview
-This project explores patterns and trends in aviation accidents using historical data. The goal is to uncover key insights that can help understand what factors may contribute to accident frequency and severity.
+This project is part of the Moringa School Phase 1 Data Science curriculum. It aims to analyze aviation accident data using Python and pandas. The goal is to explore the trends and patterns in aviation accidents over time.
 
 ## Business Understanding
 The main objective of this analysis is to provide stakeholders in aviation safety with a clearer picture of accident occurrences over time. Key questions include:
 - How have aviation accidents changed over the years?
-- Which states or aircraft types have the most recorded accidents?
+- Are there any noticeable trends in the number of accidents by state or cause?
 - Are there any noticeable seasonal or geographic patterns?
 
 ## Data Understanding and Analysis
