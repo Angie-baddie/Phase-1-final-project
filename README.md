@@ -1,43 +1,27 @@
+# Phase 1 Final Project: Aviation Accidents Analysis
 
-# Phase-1-final-project
+## Overview
+This project explores patterns and trends in aviation accidents using historical data. The goal is to uncover key insights that can help understand what factors may contribute to accident frequency and severity.
 
-## Moringa School Phase 1 Data Science Project
+## Business Understanding
+The main objective of this analysis is to provide stakeholders in aviation safety with a clearer picture of accident occurrences over time. Key questions include:
+- How have aviation accidents changed over the years?
+- Which states or aircraft types have the most recorded accidents?
+- Are there any noticeable seasonal or geographic patterns?
 
-### Overview
-This project explores aviation accident data to uncover trends and provide insights on the frequency and patterns of aviation accidents over time.
+## Data Understanding and Analysis
+The data was sourced from the National Transportation Safety Board (NTSB). It includes over 80,000 aviation incidents with various attributes such as aircraft type, location, date, and number of injuries or fatalities.
 
-### Business Understanding
-- *Stakeholder*: The aviation safety board, government authorities, and airline companies.
-- *Key Questions*:
-  - How have aviation accidents changed over the years?
-  - Are certain years or periods riskier than others?
-  - What actions could be recommended based on observed trends?
+Using Python and Pandas, the dataset was cleaned and filtered to focus on the most relevant variables. Visualizations were created using Matplotlib and Tableau to explore accident trends per year, state, and aircraft category.
 
-### Data Understanding and Analysis
-- *Source*: Aviation Data CSV provided in class.
-- *Description*: The dataset contains records of aviation accidents with details such as date, aircraft type, location, and accident type.
+Here are three key visualizations:
+1. *Number of Accidents Per Year* – showing the overall trend.
+2. *Accidents by State* – highlighting top states with most accidents.
+3. *Aircraft Category Analysis* – comparing accident counts across aircraft types.
 
-### Visualizations
-1. *Bar Chart* – Aviation accidents per year.
-2. *Line Chart* – Trend of aviation accidents over time.
-3. *Optional* – Additional visual(s) depending on exploration (e.g., accidents by state or aircraft type).
+## Conclusion
+- The number of aviation accidents peaked in the 1980s and has declined over time.
+- States like California and Texas have had the most recorded accidents, likely due to air traffic volume.
+- Single-engine aircraft were involved in a large portion of incidents.
 
-### Conclusion
-- Accidents peaked during certain historical periods possibly due to regulatory, technological, or operational changes.
-- A clear downward trend indicates improvements in aviation safety.
-- Recommendations include focusing on newer technologies and strict safety regulations.
-
----
-
-### Files in This Repository
-| File Name               | Description                                |
-|------------------------|--------------------------------------------|
-| Angela's notebook.ipynb | Final cleaned notebook with code and analysis |
-| Angela's notebook.pdf   | PDF version of notebook with output       |
-| README.md               | This readme file                          |
-
----
-
-### Author
-Angela Chesire  
-Data Science Student, Moringa School
+These findings can help safety authorities prioritize inspection resources and policy changes.
