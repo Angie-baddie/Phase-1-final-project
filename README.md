@@ -42,3 +42,7 @@ This analysis revealed the following:
 - Most accidents occur during personal or instructional flights rather than commercial ones, suggesting areas to target for pilot training and regulation.
 
 These insights can help aviation authorities, training schools, and manufacturers focus on strategies for safety improvement.
+## 📊 Interactive Dashboard
+
+You can explore the interactive Tableau dashboard here:  
+🔗 [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/angela.chesire/viz/Book1_17512381913470/Dashboard1?publish=yes)
